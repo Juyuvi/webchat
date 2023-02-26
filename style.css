@@ -1,0 +1,36 @@
+body{
+    min-height: 100vh;
+    background: #6250a3 !important;
+}
+
+.corpo{
+    margin: 0 5%;
+    padding: 3% 0;
+    color: white;
+}
+
+.msgs{
+    margin: 10px 20% 0 0%;
+    height: 500px;
+    background-color: white;
+    padding: 20px;
+    overflow-y: auto;
+    color: black;
+}
+
+
+
+p{
+    line-height: .2;
+}
+
+#selfID{
+    display: inline;
+    width: 200px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.hidden{
+    display: none;
+}
