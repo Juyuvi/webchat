@@ -41,7 +41,7 @@ selfIDform.addEventListener("keypress", function(event) {
 
 
 btnConnect.addEventListener('click', () => {
-    socket = new WebSocket("ws://192.168.15.9:8080")
+    socket = new WebSocket("ws://localhost:8080")
     
     
     tempSelfID = selfIDform.value

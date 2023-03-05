@@ -8,12 +8,12 @@ var clientIdList = new Array()
 
 
 
-const https = require('node:https').createServer().listen(8080, console.log("servidor iniciado, ouvindo a porta 8080!"))
+const http = require('http').createServer().listen(8080, console.log("servidor iniciado, ouvindo a porta 8080!"))
 const server = require("websocket").server
 
 
 
-const socket = new server({"httpServer": https})
+const socket = new server({"httpServer": http})
 
 socket.on("request", (req)=>{
     const connection = req.accept(null, req.origin)
