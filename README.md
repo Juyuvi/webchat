@@ -1,5 +1,6 @@
 # webchat
  Web chat estupidamente simples usando web sockets.
+ Esse projeto é minha primeira aplicação de Websockets, divergindo de outro, um pouco mais trabalhado, que será um Jogo da Velha Online (ainda em progresso).
 
 ![](https://github.com/Juyuvi/webchat/blob/main/untitled.gif)
 
